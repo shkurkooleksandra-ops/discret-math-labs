@@ -32,7 +32,7 @@ else:
 s = input("Введіть прізвище: ").strip()
 n = input("Введіть ім'я: ").strip()
 p = input("Введіть номер телефона(необов'язково): ").strip()
-if not n or s:
+if not n or not s:
     print("Не залишайте ім'я та прізвище порожніми")
 else:
     print("Спасибі")

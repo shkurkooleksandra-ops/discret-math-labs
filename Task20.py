@@ -11,12 +11,12 @@ def merge_ordered(a,b):
             result.append(b[bi])
             bi += 1
 
-    while ai < len(array1):
-        result.append(array1[ai])
+    while ai < len(a):
+        result.append(a[ai])
         ai += 1
 
-    while bi < len(array2):
-        result.append(array2[bi])
+    while bi < len(b):
+        result.append(b[bi])
         bi += 1
 
     return result
