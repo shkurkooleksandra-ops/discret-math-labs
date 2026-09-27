@@ -38,10 +38,10 @@ class Student:
 
 
 student1 = Student(
-    name="Mary",
-    courses=["L548"],
-    phone="+380671234567",
-    email="mary@example.com",
+    name="Олександра",
+    courses=["M143"],
+    phone="+380663427645",
+    email="alexa@example.com",
     degree="Бакалавр"
 )
 
